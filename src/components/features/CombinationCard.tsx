@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { ToolCombination } from '@/types/tool';
-import { Clock, Users, DollarSign, TrendingUp } from 'lucide-react';
+import { Clock, DollarSign, TrendingUp } from 'lucide-react';
 
 interface CombinationCardProps {
   combination: ToolCombination;
@@ -28,8 +28,8 @@ const categoryEmojis = {
 export default function CombinationCard({ combination, className = '' }: CombinationCardProps) {
   const estimatedTime = combination.workflow.reduce((total, step) => {
     // 시간 문자열에서 숫자 추출 (예: "1-2주" -> 1.5주)
-    const timeMatch = step.estimatedTime.match(/(\d+)(-(\d+))?/);
-    if (timeMatch) {
+    const timeMatch = step.estimatedTime?.match(/(\d+)(-(\d+))?/);
+    if (timeMatch && timeMatch[1]) {
       const min = parseInt(timeMatch[1]);
       const max = timeMatch[3] ? parseInt(timeMatch[3]) : min;
       return total + (min + max) / 2;

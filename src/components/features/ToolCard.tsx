@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Star, ExternalLink, Users, DollarSign, Zap } from 'lucide-react';
+import { Star, ExternalLink, Users, DollarSign } from 'lucide-react';
 import type { AITool } from '@/types/tool';
 
 // 카테고리별 아이콘 매핑

@@ -70,7 +70,7 @@ const staticCategories: Category[] = [
 ];
 
 // Lucide React 아이콘 매핑
-const iconComponentMap: { [key: string]: React.ComponentType<{ className?: string }> } = {
+const iconComponentMap: { [key: string]: any } = {
   'coding': Code2,
   'design': Palette, 
   'writing': PenTool,
@@ -102,7 +102,7 @@ const colorMap: { [key: string]: string } = {
 export function CategoryGrid() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [error] = useState<string | null>(null);
 
   useEffect(() => {
     let isMounted = true;

@@ -127,9 +127,9 @@ export default async function ToolsPage() {
             applied: {},
             available: {
               categories: toolsData.categories,
-              platforms: [...new Set(toolsData.tools.flatMap(tool => tool.platforms))],
-              pricing: [...new Set(toolsData.tools.map(tool => tool.pricing.model))],
-              tags: [...new Set(toolsData.tools.flatMap(tool => tool.tags))]
+              platforms: [...new Set(toolsData.tools.flatMap((tool: any) => tool.platforms || []))].filter(Boolean) as string[],
+              pricing: [...new Set(toolsData.tools.map((tool: any) => tool.pricing?.model).filter(Boolean))] as string[],
+              tags: [...new Set(toolsData.tools.flatMap((tool: any) => tool.tags || []))].filter(Boolean) as string[]
             }
           }}
         />

@@ -170,7 +170,7 @@ const categoryMap: { [key: string]: string } = {
 export function FeaturedTools() {
   const [tools, setTools] = useState<AITool[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [error] = useState<string | null>(null);
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
 
   useEffect(() => {
@@ -266,7 +266,7 @@ export function FeaturedTools() {
         const pricingText = tool.pricing.model === 'free' 
           ? '무료' 
           : tool.pricing.plans && tool.pricing.plans.length > 0 
-            ? `${tool.pricing.plans[0].price}/${tool.pricing.plans[0].billingCycle === 'monthly' ? '월' : '년'}`
+            ? `${tool.pricing.plans[0]?.price}/${tool.pricing.plans[0]?.billingCycle === 'monthly' ? '월' : '년'}`
             : '가격 문의';
 
         return (

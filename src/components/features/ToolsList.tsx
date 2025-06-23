@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Search, Filter, Grid, List, SlidersHorizontal } from 'lucide-react';
+import { Search, Grid, List, SlidersHorizontal } from 'lucide-react';
 import ToolCard from './ToolCard';
 import type { AITool, Category } from '@/types/tool';
 
@@ -23,7 +23,7 @@ interface ToolsListProps {
 const ToolsList: React.FC<ToolsListProps> = ({ 
   initialTools, 
   categories, 
-  totalCount,
+  totalCount: _totalCount,
   filters 
 }) => {
   const [tools, setTools] = useState<AITool[]>(initialTools);

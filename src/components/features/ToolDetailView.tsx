@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { 
-  Star, ExternalLink, Users, DollarSign, Zap, Check, 
+  Star, ExternalLink, Users, Zap, Check, 
   ArrowLeft, Share2, Heart, Bookmark, Globe, 
   Monitor, Smartphone, Code, Terminal, Box 
 } from 'lucide-react';
