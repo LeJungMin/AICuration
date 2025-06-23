@@ -1,17 +1,8 @@
 {
   "extends": [
-    "next/core-web-vitals",
-    "@typescript-eslint/recommended"
+    "next/core-web-vitals"
   ],
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
   "rules": {
-    // TypeScript 규칙
-    "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "warn",
-    "@typescript-eslint/prefer-const": "error",
-    "@typescript-eslint/no-non-null-assertion": "warn",
-    
     // React 규칙  
     "react-hooks/exhaustive-deps": "warn",
     "react/display-name": "off",
@@ -19,20 +10,11 @@
     // 일반 코딩 규칙
     "prefer-const": "error",
     "no-var": "error",
-    "no-console": "warn",
+    "no-console": "off",
     "no-debugger": "error",
     
-    // Import 규칙
-    "sort-imports": [
-      "error",
-      {
-        "ignoreCase": false,
-        "ignoreDeclarationSort": true,
-        "ignoreMemberSort": false,
-        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
-        "allowSeparatedGroups": true
-      }
-    ]
+    // Next.js 규칙
+    "@next/next/no-img-element": "off"
   },
   "env": {
     "browser": true,

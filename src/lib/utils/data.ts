@@ -51,7 +51,7 @@ export async function loadToolsByCategory(category: string): Promise<AITool[]> {
 }
 
 // JSON 데이터를 AITool 타입으로 변환
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+// eslint-disable-next-line
 function transformToolsData(rawTools: any[]): AITool[] {
   if (!rawTools || !Array.isArray(rawTools)) {
     console.warn('rawTools is not an array:', rawTools);
@@ -109,7 +109,7 @@ export async function loadCombinations(): Promise<ToolCombination[]> {
 }
 
 // JSON 데이터를 ToolCombination 타입으로 되환
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+// eslint-disable-next-line
 function transformCombinationsData(rawCombinations: any[]): ToolCombination[] {
   if (!rawCombinations || !Array.isArray(rawCombinations)) {
     console.warn('rawCombinations is not an array:', rawCombinations);

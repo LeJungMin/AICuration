@@ -16,7 +16,6 @@ async function getToolsData() {
       : process.env.NEXT_PUBLIC_BASE_URL || 'https://ai-tools-curator.vercel.app';
     
     const response = await fetch(`${baseUrl}/api/tools`, {
-      cache: 'revalidate',
       next: { revalidate: 300 } // 5분마다 재검증
     });
 
@@ -45,7 +44,7 @@ async function getToolsData() {
       
       // 모든 도구 데이터
       const toolCategories = ['coding', 'design', 'writing', 'analysis', 'learning', 'productivity'];
-      let allTools = [];
+      let allTools: any[] = [];
       
       for (const cat of toolCategories) {
         try {
