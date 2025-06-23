@@ -1,0 +1,554 @@
+{
+  "version": "1.0",
+  "category": "learning",
+  "lastUpdated": "2025-06-21T00:00:00Z",
+  "tools": [
+    {
+      "id": "khan-academy-ai",
+      "slug": "khan-academy-ai",
+      "name": "Khanmigo (Khan Academy AI)",
+      "tagline": "AI tutor for personalized learning",
+      "description": "Khanmigo는 Khan Academy에서 개발한 AI 튜터입니다. 개인화된 학습 경험을 제공하며, 학생의 이해도에 맞춰 설명을 조정합니다. 수학, 과학, 프로그래밍 등 다양한 과목에서 1:1 튜터링을 받을 수 있으며, 학습 진도를 추적하고 개선 방향을 제시합니다.",
+      "website": "https://khanacademy.org/khan-labs",
+      "logo": {
+        "url": "/images/logos/khan-academy.svg",
+        "alt": "Khan Academy AI Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "learning",
+      "subcategories": ["skill-development"],
+      "tags": ["education", "tutoring", "personalized", "k12"],
+      "targetAudience": ["student"],
+      "features": [
+        {
+          "id": "personalized-tutoring",
+          "name": "개인화 튜터링",
+          "description": "학생의 수준에 맞춘 1:1 AI 튜터링",
+          "category": "tutoring"
+        },
+        {
+          "id": "adaptive-explanations",
+          "name": "적응형 설명",
+          "description": "학생의 이해도에 따라 설명 방식 조정",
+          "category": "personalization"
+        },
+        {
+          "id": "progress-tracking",
+          "name": "학습 진도 추적",
+          "description": "학습 성과와 약점 영역 분석",
+          "category": "analytics"
+        },
+        {
+          "id": "safe-ai",
+          "name": "안전한 AI",
+          "description": "교육에 특화된 안전하고 적절한 AI 응답",
+          "category": "safety"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "khan-academy",
+          "name": "Khan Academy",
+          "type": "official"
+        },
+        {
+          "id": "google-classroom",
+          "name": "Google Classroom",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "mobile"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "기본 Khan Academy 콘텐츠",
+              "제한된 AI 기능"
+            ]
+          },
+          {
+            "id": "khanmigo",
+            "name": "Khanmigo",
+            "price": 9,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "무제한 AI 튜터링",
+              "개인화 학습 경로",
+              "진도 분석",
+              "학부모 대시보드"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["제한된 AI 기능"],
+          "trialPeriod": 30
+        }
+      },
+      "rating": {
+        "overall": 4.6,
+        "criteria": {
+          "functionality": 4.7,
+          "easeOfUse": 4.8,
+          "valueForMoney": 4.5,
+          "performance": 4.5,
+          "support": 4.4
+        },
+        "reviewCount": 3456
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-07-20T00:00:00Z",
+      "seo": {
+        "title": "Khanmigo 리뷰 - Khan Academy AI 튜터 완벽 가이드",
+        "description": "Khan Academy의 AI 튜터 Khanmigo로 개인화된 학습을 경험해보세요. 수학, 과학, 프로그래밍 1:1 튜터링.",
+        "keywords": ["khanmigo", "khan academy ai", "ai 튜터", "개인화 학습", "온라인 교육"],
+        "ogImage": "/images/og/khanmigo.jpg"
+      }
+    },
+    {
+      "id": "duolingo-max",
+      "slug": "duolingo-max",
+      "name": "Duolingo Max",
+      "tagline": "AI-powered language learning",
+      "description": "Duolingo Max는 GPT-4를 활용한 AI 기반 언어 학습 플랫폼입니다. 개인화된 설명, 역할극 연습, 실시간 대화 등을 통해 언어 학습을 혁신합니다. 전통적인 Duolingo 레슨에 AI 튜터 기능을 추가하여 더욱 효과적인 학습이 가능합니다.",
+      "website": "https://duolingo.com/max",
+      "logo": {
+        "url": "/images/logos/duolingo.svg",
+        "alt": "Duolingo Max Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "learning",
+      "subcategories": ["language-learning"],
+      "tags": ["language", "conversation", "roleplay", "gpt-4"],
+      "targetAudience": ["student"],
+      "features": [
+        {
+          "id": "explain-my-answer",
+          "name": "답안 설명",
+          "description": "틀린 답에 대한 개인화된 설명 제공",
+          "category": "explanation"
+        },
+        {
+          "id": "roleplay",
+          "name": "역할극 연습",
+          "description": "AI와 함께하는 실제 상황 대화 연습",
+          "category": "conversation"
+        },
+        {
+          "id": "personalized-feedback",
+          "name": "개인화 피드백",
+          "description": "학습자의 약점에 맞춘 맞춤형 피드백",
+          "category": "feedback"
+        },
+        {
+          "id": "adaptive-difficulty",
+          "name": "적응형 난이도",
+          "description": "학습 진도에 따른 자동 난이도 조절",
+          "category": "personalization"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "duolingo",
+          "name": "Duolingo",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "mobile"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "기본 Duolingo 레슨",
+              "광고 포함",
+              "제한된 기능"
+            ]
+          },
+          {
+            "id": "plus",
+            "name": "Plus",
+            "price": 6.99,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "광고 제거",
+              "무제한 하트",
+              "오프라인 레슨"
+            ]
+          },
+          {
+            "id": "max",
+            "name": "Max",
+            "price": 29.99,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Plus 모든 기능",
+              "AI 튜터 (Explain My Answer)",
+              "역할극 연습",
+              "개인화 피드백"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["기본 레슨만", "광고 포함"],
+          "trialPeriod": 14
+        }
+      },
+      "rating": {
+        "overall": 4.4,
+        "criteria": {
+          "functionality": 4.5,
+          "easeOfUse": 4.6,
+          "valueForMoney": 4.2,
+          "performance": 4.4,
+          "support": 4.1
+        },
+        "reviewCount": 8765
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-03-01T00:00:00Z",
+      "seo": {
+        "title": "Duolingo Max 리뷰 - GPT-4 기반 AI 언어 학습",
+        "description": "Duolingo Max의 AI 튜터, 역할극 연습, 개인화 피드백 기능을 자세히 분석합니다. 언어 학습의 새로운 패러다임.",
+        "keywords": ["duolingo max", "ai 언어학습", "gpt-4", "역할극", "개인화 교육"],
+        "ogImage": "/images/og/duolingo-max.jpg"
+      }
+    },
+    {
+      "id": "phind",
+      "slug": "phind",
+      "name": "Phind",
+      "tagline": "AI search engine for developers",
+      "description": "Phind는 개발자를 위한 AI 검색 엔진입니다. 코딩 질문에 대한 정확하고 최신의 답변을 제공하며, 실시간 웹 검색과 AI 분석을 결합합니다. Stack Overflow, GitHub, 공식 문서 등에서 정보를 수집하여 종합적인 답변을 생성합니다.",
+      "website": "https://phind.com",
+      "logo": {
+        "url": "/images/logos/phind.svg",
+        "alt": "Phind Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "learning",
+      "subcategories": ["research", "skill-development"],
+      "tags": ["coding", "search", "developer", "real-time"],
+      "targetAudience": ["developer"],
+      "features": [
+        {
+          "id": "code-search",
+          "name": "코드 검색",
+          "description": "프로그래밍 질문에 특화된 AI 검색",
+          "category": "search"
+        },
+        {
+          "id": "real-time-web",
+          "name": "실시간 웹 검색",
+          "description": "최신 정보와 문서를 실시간으로 검색",
+          "category": "real-time"
+        },
+        {
+          "id": "source-citation",
+          "name": "출처 인용",
+          "description": "모든 답변에 정확한 출처 링크 제공",
+          "category": "credibility"
+        },
+        {
+          "id": "code-examples",
+          "name": "코드 예제",
+          "description": "실행 가능한 코드 예제와 설명 제공",
+          "category": "examples"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "vscode",
+          "name": "VS Code Extension",
+          "type": "community"
+        },
+        {
+          "id": "chrome",
+          "name": "Chrome Extension",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "extension"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "무제한 검색",
+              "기본 AI 모델",
+              "웹 검색"
+            ]
+          },
+          {
+            "id": "pro",
+            "name": "Pro",
+            "price": 20,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "고급 AI 모델",
+              "더 빠른 응답",
+              "우선 지원",
+              "고급 기능"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["기본 모델만", "속도 제한"],
+          "trialPeriod": 7
+        }
+      },
+      "rating": {
+        "overall": 4.3,
+        "criteria": {
+          "functionality": 4.5,
+          "easeOfUse": 4.2,
+          "valueForMoney": 4.1,
+          "performance": 4.4,
+          "support": 4.0
+        },
+        "reviewCount": 2134
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2022-10-15T00:00:00Z",
+      "seo": {
+        "title": "Phind 리뷰 - 개발자를 위한 AI 검색 엔진",
+        "description": "Phind로 프로그래밍 질문을 AI로 검색하고 정확한 답변을 얻는 방법을 알아보세요. 개발자 학습의 새로운 방식.",
+        "keywords": ["phind", "개발자 검색", "ai 코딩", "프로그래밍 학습", "실시간 검색"],
+        "ogImage": "/images/og/phind.jpg"
+      }
+    },
+    {
+      "id": "coursera-coach",
+      "slug": "coursera-coach",
+      "name": "Coursera Coach",
+      "tagline": "AI learning assistant",
+      "description": "Coursera Coach는 온라인 학습을 지원하는 AI 어시스턴트입니다. 개인화된 학습 경로 추천, 질문 답변, 학습 진도 관리 등을 제공합니다. Coursera의 방대한 강의 콘텐츠와 연계하여 맞춤형 학습 경험을 제공하며, 전문 기술 습득을 돕습니다.",
+      "website": "https://coursera.org/coach",
+      "logo": {
+        "url": "/images/logos/coursera.svg",
+        "alt": "Coursera Coach Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "learning",
+      "subcategories": ["skill-development"],
+      "tags": ["mooc", "career-development", "personalized", "professional"],
+      "targetAudience": ["business", "student"],
+      "features": [
+        {
+          "id": "personalized-paths",
+          "name": "개인화 학습 경로",
+          "description": "목표와 현재 수준에 맞는 커스텀 학습 로드맵",
+          "category": "personalization"
+        },
+        {
+          "id": "qa-assistant",
+          "name": "질문 답변 어시스턴트",
+          "description": "강의 내용에 대한 즉시 질문 답변",
+          "category": "assistance"
+        },
+        {
+          "id": "progress-insights",
+          "name": "학습 진도 인사이트",
+          "description": "학습 패턴 분석과 개선 제안",
+          "category": "analytics"
+        },
+        {
+          "id": "career-guidance",
+          "name": "커리어 가이던스",
+          "description": "목표 직업에 필요한 스킬과 강의 추천",
+          "category": "career"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "coursera",
+          "name": "Coursera Platform",
+          "type": "official"
+        },
+        {
+          "id": "linkedin",
+          "name": "LinkedIn Learning",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "mobile"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "기본 Coursera 콘텐츠",
+              "제한된 AI 기능"
+            ]
+          },
+          {
+            "id": "plus",
+            "name": "Coursera Plus",
+            "price": 49,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "7,000+ 강의 무제한 접근",
+              "AI Coach 전체 기능",
+              "수료증 발급",
+              "전문가 피드백"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["제한된 강의", "기본 AI만"],
+          "trialPeriod": 7
+        }
+      },
+      "rating": {
+        "overall": 4.2,
+        "criteria": {
+          "functionality": 4.3,
+          "easeOfUse": 4.4,
+          "valueForMoney": 4.0,
+          "performance": 4.1,
+          "support": 4.2
+        },
+        "reviewCount": 5432
+      },
+      "status": "beta",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-08-30T00:00:00Z",
+      "seo": {
+        "title": "Coursera Coach 리뷰 - AI 학습 어시스턴트 완벽 가이드",
+        "description": "Coursera Coach의 개인화 학습 경로, 질문 답변, 커리어 가이던스 기능을 자세히 분석합니다. 온라인 학습 혁신.",
+        "keywords": ["coursera coach", "ai 학습", "온라인 교육", "커리어 개발", "개인화 학습"],
+        "ogImage": "/images/og/coursera-coach.jpg"
+      }
+    },
+    {
+      "id": "socratic",
+      "slug": "socratic",
+      "name": "Socratic by Google",
+      "tagline": "AI homework helper",
+      "description": "Socratic은 Google에서 개발한 AI 기반 숙제 도우미입니다. 사진을 찍어 문제를 스캔하면 단계별 해결 과정을 제공합니다. 수학, 과학, 역사, 영어 등 다양한 과목을 지원하며, 개념 설명과 관련 자료도 함께 제공합니다.",
+      "website": "https://socratic.org",
+      "logo": {
+        "url": "/images/logos/socratic.svg",
+        "alt": "Socratic Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "learning",
+      "subcategories": ["skill-development"],
+      "tags": ["homework", "photo-scan", "step-by-step", "k12"],
+      "targetAudience": ["student"],
+      "features": [
+        {
+          "id": "photo-scanning",
+          "name": "사진 스캔",
+          "description": "문제를 사진으로 찍어 자동 인식",
+          "category": "scanning"
+        },
+        {
+          "id": "step-solutions",
+          "name": "단계별 해결",
+          "description": "문제 해결 과정을 단계별로 설명",
+          "category": "explanation"
+        },
+        {
+          "id": "concept-explanations",
+          "name": "개념 설명",
+          "description": "문제와 관련된 핵심 개념 설명",
+          "category": "learning"
+        },
+        {
+          "id": "multi-subject",
+          "name": "다과목 지원",
+          "description": "수학, 과학, 역사, 영어 등 종합 지원",
+          "category": "subjects"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "google",
+          "name": "Google Services",
+          "type": "official"
+        }
+      ],
+      "platforms": ["mobile"],
+      "pricing": {
+        "model": "free",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "one-time",
+            "features": [
+              "무제한 사용",
+              "모든 과목 지원",
+              "사진 스캔",
+              "단계별 해결"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": []
+        }
+      },
+      "rating": {
+        "overall": 4.5,
+        "criteria": {
+          "functionality": 4.6,
+          "easeOfUse": 4.7,
+          "valueForMoney": 4.8,
+          "performance": 4.4,
+          "support": 4.1
+        },
+        "reviewCount": 12345
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2019-08-15T00:00:00Z",
+      "seo": {
+        "title": "Socratic by Google 리뷰 - AI 숙제 도우미 앱",
+        "description": "Google Socratic의 사진 스캔, 단계별 해결, 개념 설명 기능을 자세히 알아보세요. 학생을 위한 무료 AI 학습 도구.",
+        "keywords": ["socratic", "google", "숙제 도우미", "ai 학습", "사진 스캔"],
+        "ogImage": "/images/og/socratic.jpg"
+      }
+    }
+  ]
+}

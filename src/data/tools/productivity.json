@@ -1,0 +1,547 @@
+{
+  "version": "1.0",
+  "category": "productivity",
+  "lastUpdated": "2025-06-21T00:00:00Z",
+  "tools": [
+    {
+      "id": "zapier",
+      "slug": "zapier",
+      "name": "Zapier",
+      "tagline": "Automate your workflows",
+      "description": "Zapier는 다양한 앱과 서비스를 연결하여 워크플로우를 자동화하는 플랫폼입니다. 7,000개 이상의 앱을 지원하며, 코딩 없이도 복잡한 자동화를 구축할 수 있습니다. 최근 AI 기능을 추가하여 더욱 스마트한 자동화가 가능합니다.",
+      "website": "https://zapier.com",
+      "logo": {
+        "url": "/images/logos/zapier.svg",
+        "alt": "Zapier Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "productivity",
+      "subcategories": ["automation"],
+      "tags": ["automation", "integration", "workflow", "no-code"],
+      "targetAudience": ["business", "developer"],
+      "features": [
+        {
+          "id": "app-integration",
+          "name": "7,000+ 앱 연동",
+          "description": "Gmail, Slack, Salesforce 등 다양한 앱 연결",
+          "category": "integration"
+        },
+        {
+          "id": "ai-automation",
+          "name": "AI 자동화",
+          "description": "ChatGPT, Claude 등 AI 도구를 워크플로우에 통합",
+          "category": "ai"
+        },
+        {
+          "id": "conditional-logic",
+          "name": "조건부 로직",
+          "description": "복잡한 if-then 로직으로 스마트한 자동화",
+          "category": "logic"
+        },
+        {
+          "id": "team-collaboration",
+          "name": "팀 협업",
+          "description": "팀원들과 Zap 공유 및 공동 관리",
+          "category": "collaboration"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "gmail",
+          "name": "Gmail",
+          "type": "official"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "type": "official"
+        },
+        {
+          "id": "salesforce",
+          "name": "Salesforce",
+          "type": "official"
+        },
+        {
+          "id": "openai",
+          "name": "OpenAI",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "월 100 tasks",
+              "5 Zaps",
+              "기본 앱 연동"
+            ]
+          },
+          {
+            "id": "starter",
+            "name": "Starter",
+            "price": 19.99,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "월 750 tasks",
+              "20 Zaps",
+              "Webhooks",
+              "3-step Zaps"
+            ]
+          },
+          {
+            "id": "professional",
+            "name": "Professional",
+            "price": 49,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "월 2,000 tasks",
+              "무제한 Zaps",
+              "고급 기능",
+              "우선 지원"
+            ],
+            "isPopular": true
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["월 100 작업", "5개 Zap만"],
+          "trialPeriod": 14
+        }
+      },
+      "rating": {
+        "overall": 4.3,
+        "criteria": {
+          "functionality": 4.5,
+          "easeOfUse": 4.2,
+          "valueForMoney": 4.1,
+          "performance": 4.3,
+          "support": 4.2
+        },
+        "reviewCount": 5678
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2011-06-01T00:00:00Z",
+      "seo": {
+        "title": "Zapier 리뷰 - 워크플로우 자동화 플랫폼 완벽 가이드",
+        "description": "Zapier로 Gmail, Slack, AI 도구를 연결하여 업무를 자동화하는 방법을 알아보세요. 7,000개 앱 연동 가능.",
+        "keywords": ["zapier", "워크플로우 자동화", "앱 연동", "업무 자동화", "no-code"],
+        "ogImage": "/images/og/zapier.jpg"
+      }
+    },
+    {
+      "id": "monday-ai",
+      "slug": "monday-ai",
+      "name": "monday.com AI",
+      "tagline": "Work management with AI",
+      "description": "monday.com AI는 프로젝트 관리와 팀 협업을 AI로 강화한 플랫폼입니다. 작업 자동 배정, 일정 최적화, 리스크 예측, 보고서 자동 생성 등을 통해 팀의 생산성을 향상시킵니다. 직관적인 보드 인터페이스로 누구나 쉽게 사용할 수 있습니다.",
+      "website": "https://monday.com/ai",
+      "logo": {
+        "url": "/images/logos/monday.svg",
+        "alt": "monday.com AI Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "productivity",
+      "subcategories": ["task-management"],
+      "tags": ["project-management", "team-collaboration", "boards", "automation"],
+      "targetAudience": ["business"],
+      "features": [
+        {
+          "id": "smart-assignment",
+          "name": "스마트 작업 배정",
+          "description": "팀원의 업무량과 스킬을 고려한 자동 작업 배정",
+          "category": "automation"
+        },
+        {
+          "id": "predictive-analytics",
+          "name": "예측 분석",
+          "description": "프로젝트 지연 리스크와 완료 예상 시간 예측",
+          "category": "analysis"
+        },
+        {
+          "id": "auto-reports",
+          "name": "자동 보고서",
+          "description": "프로젝트 진행 상황을 자동으로 요약한 보고서 생성",
+          "category": "reporting"
+        },
+        {
+          "id": "smart-boards",
+          "name": "스마트 보드",
+          "description": "프로젝트 유형에 맞는 최적의 보드 템플릿 제안",
+          "category": "templates"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "slack",
+          "name": "Slack",
+          "type": "official"
+        },
+        {
+          "id": "microsoft-teams",
+          "name": "Microsoft Teams",
+          "type": "official"
+        },
+        {
+          "id": "zoom",
+          "name": "Zoom",
+          "type": "official"
+        },
+        {
+          "id": "google-workspace",
+          "name": "Google Workspace",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "mobile", "desktop"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "individual",
+            "name": "Individual",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "2명까지",
+              "3개 보드",
+              "기본 기능"
+            ]
+          },
+          {
+            "id": "basic",
+            "name": "Basic",
+            "price": 9,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "무제한 보드",
+              "iOS & Android 앱",
+              "20GB 스토리지"
+            ]
+          },
+          {
+            "id": "standard",
+            "name": "Standard",
+            "price": 12,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Basic 모든 기능",
+              "시간 추적",
+              "캘린더 뷰",
+              "게스트 접근"
+            ]
+          },
+          {
+            "id": "pro",
+            "name": "Pro",
+            "price": 19,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Standard 모든 기능",
+              "AI 기능 포함",
+              "고급 자동화",
+              "차트 뷰"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["2명까지", "3개 보드만"],
+          "trialPeriod": 14
+        }
+      },
+      "rating": {
+        "overall": 4.4,
+        "criteria": {
+          "functionality": 4.5,
+          "easeOfUse": 4.6,
+          "valueForMoney": 4.2,
+          "performance": 4.3,
+          "support": 4.3
+        },
+        "reviewCount": 4523
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-05-15T00:00:00Z",
+      "seo": {
+        "title": "monday.com AI 리뷰 - AI 기반 프로젝트 관리 도구",
+        "description": "monday.com AI의 스마트 작업 배정, 예측 분석, 자동 보고서 기능을 자세히 분석합니다. 팀 생산성 향상 완벽 가이드.",
+        "keywords": ["monday ai", "프로젝트 관리", "팀 협업", "작업 자동화", "ai 보드"],
+        "ogImage": "/images/og/monday-ai.jpg"
+      }
+    },
+    {
+      "id": "motion",
+      "slug": "motion",
+      "name": "Motion",
+      "tagline": "AI-powered calendar & project manager",
+      "description": "Motion은 AI를 활용한 스케줄링과 프로젝트 관리 도구입니다. 사용자의 우선순위와 마감일을 고려하여 자동으로 최적의 일정을 생성합니다. 캘린더, 작업 관리, 회의 스케줄링을 하나의 플랫폼에서 통합 관리할 수 있습니다.",
+      "website": "https://usemotion.com",
+      "logo": {
+        "url": "/images/logos/motion.svg",
+        "alt": "Motion Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "productivity",
+      "subcategories": ["scheduling", "task-management"],
+      "tags": ["calendar", "scheduling", "ai-planning", "time-blocking"],
+      "targetAudience": ["business", "developer"],
+      "features": [
+        {
+          "id": "auto-scheduling",
+          "name": "자동 스케줄링",
+          "description": "AI가 우선순위를 고려하여 최적의 일정 자동 생성",
+          "category": "scheduling"
+        },
+        {
+          "id": "intelligent-planning",
+          "name": "지능형 계획",
+          "description": "프로젝트 복잡도와 마감일을 고려한 작업 계획",
+          "category": "planning"
+        },
+        {
+          "id": "focus-time",
+          "name": "집중 시간 보호",
+          "description": "중요한 작업을 위한 방해받지 않는 시간 블록 생성",
+          "category": "productivity"
+        },
+        {
+          "id": "adaptive-scheduling",
+          "name": "적응형 스케줄링",
+          "description": "변경 사항에 따라 실시간으로 일정 재조정",
+          "category": "automation"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "google-calendar",
+          "name": "Google Calendar",
+          "type": "official"
+        },
+        {
+          "id": "outlook",
+          "name": "Outlook",
+          "type": "official"
+        },
+        {
+          "id": "zoom",
+          "name": "Zoom",
+          "type": "official"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "mobile", "desktop"],
+      "pricing": {
+        "model": "paid",
+        "plans": [
+          {
+            "id": "individual",
+            "name": "Individual",
+            "price": 19,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "AI 스케줄링",
+              "무제한 프로젝트",
+              "캘린더 통합",
+              "모바일 앱"
+            ]
+          },
+          {
+            "id": "team",
+            "name": "Team",
+            "price": 12,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Individual 모든 기능",
+              "팀 프로젝트 관리",
+              "팀 캘린더",
+              "협업 도구"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": false,
+          "trialPeriod": 7
+        }
+      },
+      "rating": {
+        "overall": 4.2,
+        "criteria": {
+          "functionality": 4.4,
+          "easeOfUse": 4.0,
+          "valueForMoney": 3.9,
+          "performance": 4.3,
+          "support": 4.1
+        },
+        "reviewCount": 1876
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2021-09-12T00:00:00Z",
+      "seo": {
+        "title": "Motion 리뷰 - AI 자동 스케줄링 캘린더 도구",
+        "description": "Motion의 AI 스케줄링, 지능형 계획, 집중 시간 보호 기능을 자세히 분석합니다. 시간 관리 혁신 가이드.",
+        "keywords": ["motion", "ai 스케줄링", "자동 캘린더", "시간 관리", "생산성"],
+        "ogImage": "/images/og/motion.jpg"
+      }
+    },
+    {
+      "id": "reclaim-ai",
+      "slug": "reclaim-ai",
+      "name": "Reclaim.ai",
+      "tagline": "AI scheduling for busy teams",
+      "description": "Reclaim.ai는 바쁜 팀을 위한 AI 스케줄링 어시스턴트입니다. 습관, 작업, 회의, 휴식 시간을 자동으로 관리하여 최적의 일정을 만들어줍니다. Google 캘린더와 완벽하게 통합되며, 팀원들의 일정 조율도 자동화합니다.",
+      "website": "https://reclaim.ai",
+      "logo": {
+        "url": "/images/logos/reclaim.svg",
+        "alt": "Reclaim.ai Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "productivity",
+      "subcategories": ["scheduling"],
+      "tags": ["calendar", "habits", "time-blocking", "team-scheduling"],
+      "targetAudience": ["business"],
+      "features": [
+        {
+          "id": "habit-scheduling",
+          "name": "습관 스케줄링",
+          "description": "운동, 독서 등 개인 습관을 자동으로 일정에 추가",
+          "category": "habits"
+        },
+        {
+          "id": "focus-time",
+          "name": "집중 시간",
+          "description": "중요한 작업을 위한 방해받지 않는 시간 자동 확보",
+          "category": "productivity"
+        },
+        {
+          "id": "smart-1on1s",
+          "name": "스마트 1:1 미팅",
+          "description": "팀원과의 정기 미팅을 자동으로 스케줄링",
+          "category": "meetings"
+        },
+        {
+          "id": "buffer-time",
+          "name": "버퍼 타임",
+          "description": "회의 사이에 자동으로 휴식 시간 추가",
+          "category": "wellness"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "google-calendar",
+          "name": "Google Calendar",
+          "type": "official"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "type": "official"
+        },
+        {
+          "id": "asana",
+          "name": "Asana",
+          "type": "official"
+        },
+        {
+          "id": "linear",
+          "name": "Linear",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "mobile"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "lite",
+            "name": "Lite",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "3가지 습관",
+              "기본 집중 시간",
+              "Google 캘린더 연동"
+            ]
+          },
+          {
+            "id": "starter",
+            "name": "Starter",
+            "price": 8,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "무제한 습관",
+              "작업 스케줄링",
+              "1:1 미팅 관리",
+              "모바일 앱"
+            ]
+          },
+          {
+            "id": "business",
+            "name": "Business",
+            "price": 12,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Starter 모든 기능",
+              "팀 관리",
+              "고급 분석",
+              "우선 지원"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["3가지 습관만", "기본 기능만"],
+          "trialPeriod": 14
+        }
+      },
+      "rating": {
+        "overall": 4.3,
+        "criteria": {
+          "functionality": 4.4,
+          "easeOfUse": 4.2,
+          "valueForMoney": 4.1,
+          "performance": 4.4,
+          "support": 4.2
+        },
+        "reviewCount": 1234
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2020-03-10T00:00:00Z",
+      "seo": {
+        "title": "Reclaim.ai 리뷰 - AI 팀 스케줄링 도구 완벽 가이드",
+        "description": "Reclaim.ai의 습관 스케줄링, 집중 시간 관리, 스마트 미팅 기능을 자세히 분석합니다. 바쁜 팀을 위한 시간 관리 솔루션.",
+        "keywords": ["reclaim ai", "팀 스케줄링", "습관 관리", "집중 시간", "ai 캘린더"],
+        "ogImage": "/images/og/reclaim-ai.jpg"
+      }
+    }
+  ]
+}

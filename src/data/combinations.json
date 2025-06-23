@@ -1,0 +1,377 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-06-21T00:00:00Z",
+  "combinations": [
+    {
+      "id": "startup-mvp-frontend",
+      "title": "스타트업 MVP 프론트엔드 개발",
+      "description": "빠른 프로토타이핑과 개발 속도가 중요한 스타트업 MVP 프론트엔드 개발에 최적화된 AI 도구 조합입니다. 비용 효율성과 생산성을 동시에 추구합니다.",
+      "category": "startup-mvp",
+      "difficulty": "intermediate",
+      "tools": {
+        "primary": ["cursor", "v0-dev", "chatgpt", "perplexity"],
+        "optional": ["figma-ai", "codeium"],
+        "alternatives": {
+          "cursor": ["github-copilot", "tabnine"],
+          "v0-dev": ["chatgpt"],
+          "chatgpt": ["claude"]
+        }
+      },
+      "workflow": [
+        {
+          "id": "step-1",
+          "title": "아이디어 검증 및 기술 조사",
+          "description": "Perplexity로 시장 조사와 기술 스택 검증",
+          "toolId": "perplexity",
+          "order": 1,
+          "estimatedTime": "2-4시간"
+        },
+        {
+          "id": "step-2", 
+          "title": "UI 프로토타입 생성",
+          "description": "v0.dev로 빠른 UI 컴포넌트 프로토타이핑",
+          "toolId": "v0-dev",
+          "order": 2,
+          "estimatedTime": "4-8시간"
+        },
+        {
+          "id": "step-3",
+          "title": "코드 개발",
+          "description": "Cursor로 실제 애플리케이션 개발",
+          "toolId": "cursor",
+          "order": 3,
+          "estimatedTime": "1-2주"
+        },
+        {
+          "id": "step-4",
+          "title": "콘텐츠 생성",
+          "description": "ChatGPT로 랜딩 페이지 카피와 문서 작성",
+          "toolId": "chatgpt",
+          "order": 4,
+          "estimatedTime": "1-2일"
+        }
+      ],
+      "budget": {
+        "minimum": 30,
+        "recommended": 60,
+        "premium": 100
+      },
+      "pros": [
+        "빠른 개발 속도",
+        "낮은 초기 비용",
+        "높은 코드 품질",
+        "실시간 시장 조사 가능"
+      ],
+      "cons": [
+        "복잡한 로직에는 한계",
+        "커스터마이징 제약",
+        "AI 의존도 높음"
+      ],
+      "useCase": "2-3명 팀이 3개월 내에 MVP를 출시해야 하는 상황. React/Next.js 기반 웹 애플리케이션.",
+      "metadata": {
+        "author": "AI Tools Curator",
+        "createdAt": "2025-06-21T00:00:00Z",
+        "updatedAt": "2025-06-21T00:00:00Z",
+        "viewCount": 0,
+        "likeCount": 0
+      }
+    },
+    {
+      "id": "enterprise-development",
+      "title": "엔터프라이즈 프론트엔드 개발",
+      "description": "보안, 안정성, 확장성이 중요한 대기업 환경에서의 프론트엔드 개발을 위한 AI 도구 조합입니다. 팀 협업과 코드 품질에 중점을 둡니다.",
+      "category": "enterprise",
+      "difficulty": "advanced",
+      "tools": {
+        "primary": ["github-copilot", "tabnine", "excel-copilot", "monday-ai"],
+        "optional": ["airtable-ai", "motion"],
+        "alternatives": {
+          "github-copilot": ["cursor"],
+          "tabnine": ["codeium"],
+          "excel-copilot": ["airtable-ai"]
+        }
+      },
+      "workflow": [
+        {
+          "id": "step-1",
+          "title": "요구사항 분석",
+          "description": "monday.com AI로 프로젝트 계획 및 작업 배정",
+          "toolId": "monday-ai",
+          "order": 1,
+          "estimatedTime": "1-2주"
+        },
+        {
+          "id": "step-2",
+          "title": "아키텍처 설계",
+          "description": "Tabnine으로 보안을 고려한 코드 작성",
+          "toolId": "tabnine",
+          "order": 2,
+          "estimatedTime": "1주"
+        },
+        {
+          "id": "step-3",
+          "title": "개발 및 협업",
+          "description": "GitHub Copilot으로 팀 기반 개발",
+          "toolId": "github-copilot",
+          "order": 3,
+          "estimatedTime": "2-3개월"
+        },
+        {
+          "id": "step-4",
+          "title": "데이터 분석",
+          "description": "Excel Copilot으로 사용 데이터 분석",
+          "toolId": "excel-copilot",
+          "order": 4,
+          "estimatedTime": "1-2주"
+        }
+      ],
+      "budget": {
+        "minimum": 150,
+        "recommended": 300,
+        "premium": 500
+      },
+      "pros": [
+        "높은 보안성",
+        "팀 협업 최적화",
+        "엔터프라이즈 지원",
+        "데이터 보호"
+      ],
+      "cons": [
+        "높은 비용",
+        "설정 복잡도",
+        "도입 시간 소요"
+      ],
+      "useCase": "50명 이상 개발팀이 장기 프로젝트를 진행하며, 보안과 규정 준수가 필수인 환경.",
+      "metadata": {
+        "author": "AI Tools Curator",
+        "createdAt": "2025-06-21T00:00:00Z",
+        "updatedAt": "2025-06-21T00:00:00Z",
+        "viewCount": 0,
+        "likeCount": 0
+      }
+    },
+    {
+      "id": "personal-project",
+      "title": "개인 프로젝트 & 포트폴리오",
+      "description": "개인 개발자가 포트폴리오나 사이드 프로젝트를 만들 때 최적화된 무료/저가 AI 도구 조합입니다. 학습과 실험을 병행할 수 있습니다.",
+      "category": "personal",
+      "difficulty": "beginner",
+      "tools": {
+        "primary": ["codeium", "chatgpt", "stable-diffusion", "socratic"],
+        "optional": ["phind", "perplexity"],
+        "alternatives": {
+          "codeium": ["github-copilot"],
+          "chatgpt": ["claude"],
+          "stable-diffusion": ["midjourney"]
+        }
+      },
+      "workflow": [
+        {
+          "id": "step-1",
+          "title": "학습 및 조사",
+          "description": "Socratic과 Phind로 새로운 기술 학습",
+          "toolId": "socratic",
+          "order": 1,
+          "estimatedTime": "1-2주"
+        },
+        {
+          "id": "step-2",
+          "title": "디자인 에셋 생성",
+          "description": "Stable Diffusion으로 무료 이미지 생성",
+          "toolId": "stable-diffusion",
+          "order": 2,
+          "estimatedTime": "2-3일"
+        },
+        {
+          "id": "step-3",
+          "title": "코드 개발",
+          "description": "Codeium으로 무료 코드 자동완성",
+          "toolId": "codeium",
+          "order": 3,
+          "estimatedTime": "2-4주"
+        },
+        {
+          "id": "step-4",
+          "title": "문서화",
+          "description": "ChatGPT로 README와 문서 작성",
+          "toolId": "chatgpt",
+          "order": 4,
+          "estimatedTime": "1일"
+        }
+      ],
+      "budget": {
+        "minimum": 0,
+        "recommended": 20,
+        "premium": 50
+      },
+      "pros": [
+        "무료 또는 저비용",
+        "학습 효과 높음",
+        "제약 없는 실험",
+        "포트폴리오 구축"
+      ],
+      "cons": [
+        "기능 제한",
+        "고급 기능 부족",
+        "지원 제한"
+      ],
+      "useCase": "취업 준비생이나 개인 개발자가 포트폴리오 프로젝트를 만들거나 새로운 기술을 학습할 때.",
+      "metadata": {
+        "author": "AI Tools Curator",
+        "createdAt": "2025-06-21T00:00:00Z",
+        "updatedAt": "2025-06-21T00:00:00Z",
+        "viewCount": 0,
+        "likeCount": 0
+      }
+    },
+    {
+      "id": "learning-bootcamp",
+      "title": "프로그래밍 학습 & 부트캠프",
+      "description": "프로그래밍을 처음 배우거나 부트캠프에서 학습하는 사람들을 위한 AI 도구 조합입니다. 개념 이해와 문제 해결에 중점을 둡니다.",
+      "category": "learning",
+      "difficulty": "beginner",
+      "tools": {
+        "primary": ["khanmigo", "socratic", "phind", "chatgpt"],
+        "optional": ["duolingo-max", "codeium"],
+        "alternatives": {
+          "khanmigo": ["coursera-coach"],
+          "socratic": ["phind"],
+          "chatgpt": ["claude"]
+        }
+      },
+      "workflow": [
+        {
+          "id": "step-1",
+          "title": "기초 학습",
+          "description": "Khanmigo로 프로그래밍 기초 개념 학습",
+          "toolId": "khanmigo",
+          "order": 1,
+          "estimatedTime": "4-8주"
+        },
+        {
+          "id": "step-2",
+          "title": "문제 해결 연습",
+          "description": "Socratic으로 숙제와 문제 해결",
+          "toolId": "socratic",
+          "order": 2,
+          "estimatedTime": "지속적"
+        },
+        {
+          "id": "step-3",
+          "title": "심화 학습",
+          "description": "Phind로 고급 개발 질문 해결",
+          "toolId": "phind",
+          "order": 3,
+          "estimatedTime": "8-12주"
+        },
+        {
+          "id": "step-4",
+          "title": "프로젝트 구현",
+          "description": "ChatGPT와 Codeium으로 실습 프로젝트",
+          "toolId": "chatgpt",
+          "order": 4,
+          "estimatedTime": "4-6주"
+        }
+      ],
+      "budget": {
+        "minimum": 9,
+        "recommended": 40,
+        "premium": 80
+      },
+      "pros": [
+        "체계적 학습 경로",
+        "개념 이해 중심",
+        "단계별 난이도",
+        "실습 중심"
+      ],
+      "cons": [
+        "즉시 활용하기 어려움",
+        "기초에 치중",
+        "고급 기능 부족"
+      ],
+      "useCase": "프로그래밍을 처음 배우는 비전공자나 부트캠프 수강생, 커리어 전환을 준비하는 사람들.",
+      "metadata": {
+        "author": "AI Tools Curator",
+        "createdAt": "2025-06-21T00:00:00Z",
+        "updatedAt": "2025-06-21T00:00:00Z",
+        "viewCount": 0,
+        "likeCount": 0
+      }
+    },
+    {
+      "id": "freelance-fullstack",
+      "title": "프리랜서 풀스택 개발",
+      "description": "혼자서 풀스택 개발을 해야 하는 프리랜서를 위한 AI 도구 조합입니다. 디자인부터 개발, 마케팅까지 전방위적으로 커버합니다.",
+      "category": "freelance",
+      "difficulty": "advanced",
+      "tools": {
+        "primary": ["cursor", "midjourney", "chatgpt", "motion"],
+        "optional": ["figma-ai", "jasper", "zapier"],
+        "alternatives": {
+          "cursor": ["github-copilot"],
+          "midjourney": ["dall-e-3"],
+          "chatgpt": ["claude"],
+          "motion": ["reclaim-ai"]
+        }
+      },
+      "workflow": [
+        {
+          "id": "step-1",
+          "title": "클라이언트 미팅 & 기획",
+          "description": "Motion으로 클라이언트 미팅 스케줄링",
+          "toolId": "motion",
+          "order": 1,
+          "estimatedTime": "1주"
+        },
+        {
+          "id": "step-2",
+          "title": "디자인 & 에셋 제작",
+          "description": "Midjourney로 디자인 에셋 생성",
+          "toolId": "midjourney",
+          "order": 2,
+          "estimatedTime": "1-2주"
+        },
+        {
+          "id": "step-3",
+          "title": "풀스택 개발",
+          "description": "Cursor로 프론트엔드/백엔드 개발",
+          "toolId": "cursor",
+          "order": 3,
+          "estimatedTime": "4-8주"
+        },
+        {
+          "id": "step-4",
+          "title": "콘텐츠 & 마케팅",
+          "description": "ChatGPT로 콘텐츠 작성과 제안서",
+          "toolId": "chatgpt",
+          "order": 4,
+          "estimatedTime": "1주"
+        }
+      ],
+      "budget": {
+        "minimum": 70,
+        "recommended": 120,
+        "premium": 200
+      },
+      "pros": [
+        "올인원 솔루션",
+        "시간 관리 최적화",
+        "높은 생산성",
+        "클라이언트 만족도"
+      ],
+      "cons": [
+        "상대적 고비용",
+        "도구 간 연동 필요",
+        "학습 곡선"
+      ],
+      "useCase": "다양한 클라이언트 프로젝트를 혼자 처리해야 하는 시니어 프리랜서 개발자.",
+      "metadata": {
+        "author": "AI Tools Curator",
+        "createdAt": "2025-06-21T00:00:00Z",
+        "updatedAt": "2025-06-21T00:00:00Z",
+        "viewCount": 0,
+        "likeCount": 0
+      }
+    }
+  ]
+}

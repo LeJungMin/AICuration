@@ -1,0 +1,649 @@
+{
+  "version": "1.0",
+  "category": "coding",
+  "lastUpdated": "2025-06-21T00:00:00Z",
+  "tools": [
+    {
+      "id": "github-copilot",
+      "slug": "github-copilot",
+      "name": "GitHub Copilot",
+      "tagline": "Your AI pair programmer",
+      "description": "GitHub Copilot은 OpenAI와 GitHub이 협력하여 개발한 AI 코드 어시스턴트입니다. 자연어 주석이나 함수명을 통해 전체 함수를 자동완성해주며, 다양한 프로그래밍 언어를 지원합니다. VS Code, JetBrains, Neovim 등 주요 IDE에서 사용할 수 있습니다.",
+      "website": "https://github.com/features/copilot",
+      "logo": {
+        "url": "/images/logos/github-copilot.svg",
+        "alt": "GitHub Copilot Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "coding",
+      "subcategories": ["code-generation"],
+      "tags": ["autocomplete", "pair-programming", "openai", "vscode", "jetbrains"],
+      "targetAudience": ["developer"],
+      "features": [
+        {
+          "id": "code-completion",
+          "name": "지능형 코드 완성",
+          "description": "컨텍스트를 이해하는 실시간 코드 제안",
+          "category": "core"
+        },
+        {
+          "id": "multi-language",
+          "name": "다중 언어 지원",
+          "description": "Python, JavaScript, TypeScript, Go, Ruby 등 수십 개 언어 지원",
+          "category": "language"
+        },
+        {
+          "id": "ide-integration",
+          "name": "IDE 통합",
+          "description": "VS Code, JetBrains, Neovim, Visual Studio 등 지원",
+          "category": "integration"
+        },
+        {
+          "id": "chat-feature",
+          "name": "Copilot Chat",
+          "description": "자연어로 코드에 대해 질문하고 설명을 들을 수 있음",
+          "category": "ai"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "vscode",
+          "name": "Visual Studio Code",
+          "type": "official",
+          "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot"
+        },
+        {
+          "id": "jetbrains",
+          "name": "JetBrains IDEs",
+          "type": "official",
+          "url": "https://plugins.jetbrains.com/plugin/17718-github-copilot"
+        },
+        {
+          "id": "neovim",
+          "name": "Neovim",
+          "type": "official",
+          "url": "https://github.com/github/copilot.vim"
+        }
+      ],
+      "platforms": ["extension", "desktop"],
+      "pricing": {
+        "model": "paid",
+        "plans": [
+          {
+            "id": "individual",
+            "name": "Individual",
+            "price": 10,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "무제한 코드 완성",
+              "Copilot Chat",
+              "CLI 지원",
+              "모바일 지원"
+            ]
+          },
+          {
+            "id": "business",
+            "name": "Business", 
+            "price": 19,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Individual 모든 기능",
+              "조직 관리",
+              "정책 관리",
+              "감사 로그"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["학생 및 오픈소스 메인테이너 대상"],
+          "trialPeriod": 30
+        }
+      },
+      "rating": {
+        "overall": 4.3,
+        "criteria": {
+          "functionality": 4.5,
+          "easeOfUse": 4.4,
+          "valueForMoney": 4.0,
+          "performance": 4.2,
+          "support": 4.1
+        },
+        "reviewCount": 2847
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-01-15T00:00:00Z",
+      "seo": {
+        "title": "GitHub Copilot 리뷰 - AI 코드 자동완성 도구 비교",
+        "description": "GitHub Copilot의 기능, 가격, 장단점을 상세히 분석합니다. VS Code에서 AI 페어 프로그래밍을 경험해보세요.",
+        "keywords": ["github copilot", "ai 코딩", "코드 자동완성", "vs code", "openai"],
+        "ogImage": "/images/og/github-copilot.jpg"
+      }
+    },
+    {
+      "id": "cursor",
+      "slug": "cursor",
+      "name": "Cursor",
+      "tagline": "The AI-first code editor",
+      "description": "Cursor는 AI 기능이 내장된 차세대 코드 에디터입니다. VS Code와 유사한 인터페이스를 제공하면서도 더 강력한 AI 어시스턴트 기능을 갖추고 있습니다. 코드 편집, 리팩토링, 버그 수정을 자연어로 요청할 수 있습니다.",
+      "website": "https://cursor.sh",
+      "logo": {
+        "url": "/images/logos/cursor.svg",
+        "alt": "Cursor Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "coding",
+      "subcategories": ["code-generation", "code-review"],
+      "tags": ["editor", "ai-native", "vscode-fork", "refactoring"],
+      "targetAudience": ["developer"],
+      "features": [
+        {
+          "id": "ai-chat",
+          "name": "AI 채팅",
+          "description": "코드베이스 전체를 이해하는 AI와 대화",
+          "category": "ai"
+        },
+        {
+          "id": "cmd-k",
+          "name": "Cmd+K 편집",
+          "description": "자연어로 코드 편집 및 생성 요청",
+          "category": "editing"
+        },
+        {
+          "id": "codebase-answers",
+          "name": "코드베이스 질문",
+          "description": "프로젝트 구조나 특정 함수에 대한 질문 가능",
+          "category": "analysis"
+        },
+        {
+          "id": "auto-debug",
+          "name": "자동 디버깅",
+          "description": "에러를 분석하고 수정 방법 제안",
+          "category": "debugging"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "git",
+          "name": "Git",
+          "type": "official"
+        },
+        {
+          "id": "extensions",
+          "name": "VS Code Extensions",
+          "type": "official",
+          "url": "https://marketplace.visualstudio.com"
+        }
+      ],
+      "platforms": ["desktop"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "hobby",
+            "name": "Hobby",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "2000 completions/month",
+              "50 slow premium requests",
+              "기본 AI 채팅"
+            ]
+          },
+          {
+            "id": "pro",
+            "name": "Pro",
+            "price": 20,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "무제한 completions",
+              "500 fast premium requests",
+              "고급 AI 모델 접근",
+              "우선 지원"
+            ],
+            "isPopular": true
+          },
+          {
+            "id": "business",
+            "name": "Business",
+            "price": 40,
+            "currency": "USD", 
+            "billingCycle": "monthly",
+            "features": [
+              "Pro 모든 기능",
+              "팀 관리",
+              "중앙 청구",
+              "보안 기능"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["월 2000회 자동완성", "제한된 AI 요청"],
+          "trialPeriod": 14
+        }
+      },
+      "rating": {
+        "overall": 4.6,
+        "criteria": {
+          "functionality": 4.8,
+          "easeOfUse": 4.5,
+          "valueForMoney": 4.4,
+          "performance": 4.6,
+          "support": 4.3
+        },
+        "reviewCount": 1284
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-08-20T00:00:00Z",
+      "seo": {
+        "title": "Cursor 리뷰 - AI 네이티브 코드 에디터 완벽 가이드",
+        "description": "Cursor 에디터의 AI 기능, 가격, GitHub Copilot과의 비교를 자세히 알아보세요. 개발 생산성을 높이는 방법을 소개합니다.",
+        "keywords": ["cursor", "ai 에디터", "코드 에디터", "ai 프로그래밍", "vscode 대안"],
+        "ogImage": "/images/og/cursor.jpg"
+      }
+    },
+    {
+      "id": "tabnine", 
+      "slug": "tabnine",
+      "name": "Tabnine",
+      "tagline": "AI assistant for software developers",
+      "description": "Tabnine은 코드 자동완성에 특화된 AI 도구입니다. 개인 및 팀의 코딩 패턴을 학습하여 맞춤형 코드 제안을 제공합니다. 온프레미스 배포가 가능하여 보안이 중요한 기업에서 많이 사용됩니다.",
+      "website": "https://www.tabnine.com",
+      "logo": {
+        "url": "/images/logos/tabnine.svg",
+        "alt": "Tabnine Logo", 
+        "width": 48,
+        "height": 48
+      },
+      "category": "coding",
+      "subcategories": ["code-generation"],
+      "tags": ["autocomplete", "privacy", "on-premise", "enterprise"],
+      "targetAudience": ["developer", "business"],
+      "features": [
+        {
+          "id": "smart-completion",
+          "name": "스마트 자동완성",
+          "description": "팀의 코딩 스타일을 학습한 개인화된 제안",
+          "category": "core"
+        },
+        {
+          "id": "privacy-first",
+          "name": "프라이버시 우선",
+          "description": "코드가 서버로 전송되지 않는 로컬 AI 모델",
+          "category": "security"
+        },
+        {
+          "id": "team-training",
+          "name": "팀 코드 학습",
+          "description": "팀의 코드베이스로 AI 모델 훈련 가능",
+          "category": "customization"
+        },
+        {
+          "id": "compliance",
+          "name": "규정 준수",
+          "description": "GDPR, SOC2 등 기업 보안 요구사항 충족",
+          "category": "security"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "vscode",
+          "name": "Visual Studio Code",
+          "type": "official"
+        },
+        {
+          "id": "intellij",
+          "name": "IntelliJ IDEA",
+          "type": "official"
+        },
+        {
+          "id": "sublime",
+          "name": "Sublime Text",
+          "type": "official"
+        },
+        {
+          "id": "vim",
+          "name": "Vim/Neovim",
+          "type": "official"
+        }
+      ],
+      "platforms": ["extension", "desktop"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "starter",
+            "name": "Starter",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "기본 코드 완성",
+              "로컬 모델",
+              "커뮤니티 지원"
+            ]
+          },
+          {
+            "id": "pro", 
+            "name": "Pro",
+            "price": 12,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "고급 AI 모델",
+              "전체 함수 완성",
+              "자연어 to 코드",
+              "우선 지원"
+            ]
+          },
+          {
+            "id": "enterprise",
+            "name": "Enterprise",
+            "price": 39,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Pro 모든 기능",
+              "팀 모델 훈련",
+              "온프레미스 배포",
+              "관리자 대시보드",
+              "SSO 통합"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["기본 모델만 사용", "제한된 완성 횟수"]
+        }
+      },
+      "rating": {
+        "overall": 4.1,
+        "criteria": {
+          "functionality": 4.2,
+          "easeOfUse": 4.3,
+          "valueForMoney": 3.9,
+          "performance": 4.0,
+          "support": 4.0
+        },
+        "reviewCount": 1847
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2022-05-10T00:00:00Z",
+      "seo": {
+        "title": "Tabnine 리뷰 - 프라이버시 중심 AI 코드 완성 도구",
+        "description": "Tabnine의 특징, 가격, GitHub Copilot 대안으로서의 장점을 분석합니다. 기업 환경에서의 AI 코딩 도구 선택 가이드.",
+        "keywords": ["tabnine", "ai 자동완성", "프라이버시", "기업용 ai", "코드 완성"],
+        "ogImage": "/images/og/tabnine.jpg"
+      }
+    },
+    {
+      "id": "codeium",
+      "slug": "codeium", 
+      "name": "Codeium",
+      "tagline": "Free AI-powered code completion",
+      "description": "Codeium은 무료로 제공되는 AI 코드 완성 도구입니다. GitHub Copilot과 유사한 기능을 제공하면서도 개인 사용자에게는 완전 무료입니다. 70개 이상의 프로그래밍 언어를 지원하며 다양한 IDE에서 사용할 수 있습니다.",
+      "website": "https://codeium.com",
+      "logo": {
+        "url": "/images/logos/codeium.svg",
+        "alt": "Codeium Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "coding",
+      "subcategories": ["code-generation"],
+      "tags": ["free", "autocomplete", "multilingual", "ide-support"],
+      "targetAudience": ["developer", "student"],
+      "features": [
+        {
+          "id": "unlimited-free",
+          "name": "무제한 무료",
+          "description": "개인 사용자에게 완전 무료로 제공",
+          "category": "pricing"
+        },
+        {
+          "id": "multi-language",
+          "name": "70+ 언어 지원",
+          "description": "Python, JavaScript, Go, Rust 등 다양한 언어",
+          "category": "language"
+        },
+        {
+          "id": "context-aware",
+          "name": "컨텍스트 인식",
+          "description": "파일 전체와 프로젝트 구조를 이해하는 완성",
+          "category": "ai"
+        },
+        {
+          "id": "chat-assistant",
+          "name": "채팅 어시스턴트",
+          "description": "코드에 대해 질문하고 설명을 받을 수 있음",
+          "category": "ai"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "vscode",
+          "name": "Visual Studio Code",
+          "type": "official"
+        },
+        {
+          "id": "jetbrains",
+          "name": "JetBrains IDEs",
+          "type": "official"
+        },
+        {
+          "id": "vim",
+          "name": "Vim/Neovim",
+          "type": "official"
+        },
+        {
+          "id": "emacs",
+          "name": "Emacs",
+          "type": "official"
+        }
+      ],
+      "platforms": ["extension", "web"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "individual",
+            "name": "Individual",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "무제한 자동완성",
+              "채팅 어시스턴트",
+              "70+ 언어 지원",
+              "모든 IDE 지원"
+            ]
+          },
+          {
+            "id": "teams",
+            "name": "Teams",
+            "price": 12,
+            "currency": "USD",
+            "billingCycle": "monthly", 
+            "features": [
+              "Individual 모든 기능",
+              "팀 관리",
+              "사용량 분석",
+              "우선 지원"
+            ]
+          },
+          {
+            "id": "enterprise",
+            "name": "Enterprise",
+            "price": 25,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Teams 모든 기능",
+              "온프레미스 배포",
+              "SSO 통합",
+              "감사 로그",
+              "SLA 보장"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": [],
+          "trialPeriod": 0
+        }
+      },
+      "rating": {
+        "overall": 4.4,
+        "criteria": {
+          "functionality": 4.3,
+          "easeOfUse": 4.6,
+          "valueForMoney": 4.8,
+          "performance": 4.2,
+          "support": 4.1
+        },
+        "reviewCount": 892
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-03-15T00:00:00Z",
+      "seo": {
+        "title": "Codeium 리뷰 - 무료 AI 코드 완성 도구 완벽 가이드",
+        "description": "Codeium의 무료 AI 코드 완성 기능을 자세히 분석합니다. GitHub Copilot 무료 대안으로서의 장단점과 사용법을 소개합니다.",
+        "keywords": ["codeium", "무료 ai 코딩", "copilot 대안", "무료 자동완성", "ai 프로그래밍"],
+        "ogImage": "/images/og/codeium.jpg"
+      }
+    },
+    {
+      "id": "v0-dev",
+      "slug": "v0-dev",
+      "name": "v0.dev",
+      "tagline": "Generate UI with simple text prompts",
+      "description": "v0.dev는 Vercel에서 개발한 AI 기반 UI 생성 도구입니다. 자연어 프롬프트로 React 컴포넌트를 생성하고, shadcn/ui와 TailwindCSS를 기반으로 한 고품질 코드를 제공합니다. 프론트엔드 개발자들이 빠르게 프로토타입을 만들 때 유용합니다.",
+      "website": "https://v0.dev",
+      "logo": {
+        "url": "/images/logos/v0.svg",
+        "alt": "v0.dev Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "coding",
+      "subcategories": ["code-generation", "ui-design"],
+      "tags": ["react", "ui-generation", "tailwindcss", "shadcn", "vercel"],
+      "targetAudience": ["developer", "designer"],
+      "features": [
+        {
+          "id": "ui-generation",
+          "name": "UI 컴포넌트 생성",
+          "description": "자연어로 React 컴포넌트를 즉시 생성",
+          "category": "generation"
+        },
+        {
+          "id": "shadcn-based",
+          "name": "shadcn/ui 기반",
+          "description": "고품질 컴포넌트 라이브러리 기반 코드 생성",
+          "category": "framework"
+        },
+        {
+          "id": "responsive-design",
+          "name": "반응형 디자인",
+          "description": "모바일 우선 반응형 레이아웃 자동 생성",
+          "category": "design"
+        },
+        {
+          "id": "copy-code",
+          "name": "코드 복사",
+          "description": "생성된 컴포넌트를 바로 프로젝트에 사용",
+          "category": "export"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "react",
+          "name": "React",
+          "type": "official"
+        },
+        {
+          "id": "nextjs",
+          "name": "Next.js",
+          "type": "official"
+        },
+        {
+          "id": "tailwindcss",
+          "name": "TailwindCSS",
+          "type": "official"
+        },
+        {
+          "id": "shadcn-ui",
+          "name": "shadcn/ui",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "200 generations/month",
+              "기본 컴포넌트",
+              "shadcn/ui 통합"
+            ]
+          },
+          {
+            "id": "pro",
+            "name": "Pro",
+            "price": 20,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "5000 generations/month",
+              "고급 컴포넌트",
+              "커스텀 스타일",
+              "우선 지원"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["월 200회 생성", "기본 컴포넌트만"],
+          "trialPeriod": 7
+        }
+      },
+      "rating": {
+        "overall": 4.5,
+        "criteria": {
+          "functionality": 4.4,
+          "easeOfUse": 4.7,
+          "valueForMoney": 4.3,
+          "performance": 4.6,
+          "support": 4.2
+        },
+        "reviewCount": 567
+      },
+      "status": "beta",
+      "lastUpdated": "2025-06-21T00:00:00Z", 
+      "addedDate": "2023-11-01T00:00:00Z",
+      "seo": {
+        "title": "v0.dev 리뷰 - AI로 React 컴포넌트 자동 생성하기",
+        "description": "Vercel의 v0.dev로 자연어로 React UI 컴포넌트를 생성하는 방법을 알아보세요. shadcn/ui 기반 고품질 코드 생성 도구 분석.",
+        "keywords": ["v0.dev", "react 컴포넌트 생성", "ai ui", "shadcn", "vercel ai"],
+        "ogImage": "/images/og/v0-dev.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "version": "1.0",
+  "category": "analysis",
+  "lastUpdated": "2025-06-21T00:00:00Z",
+  "tools": [
+    {
+      "id": "perplexity",
+      "slug": "perplexity",
+      "name": "Perplexity",
+      "tagline": "AI-powered search engine",
+      "description": "Perplexity는 AI 기반 검색 엔진으로, 실시간 웹 검색과 AI 분석을 결합하여 정확하고 최신의 정보를 제공합니다. 복잡한 질문에 대해 여러 소스를 종합하여 분석하고, 출처를 명시한 답변을 제공합니다. 연구, 분석, 정보 수집에 특히 유용합니다.",
+      "website": "https://perplexity.ai",
+      "logo": {
+        "url": "/images/logos/perplexity.svg",
+        "alt": "Perplexity Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "analysis",
+      "subcategories": ["market-research", "data-analysis"],
+      "tags": ["search", "real-time", "sources", "research"],
+      "targetAudience": ["researcher", "business", "student"],
+      "features": [
+        {
+          "id": "real-time-search",
+          "name": "실시간 검색",
+          "description": "최신 웹 정보를 실시간으로 검색하고 분석",
+          "category": "search"
+        },
+        {
+          "id": "source-citation",
+          "name": "출처 인용",
+          "description": "모든 답변에 정확한 출처와 링크 제공",
+          "category": "credibility"
+        },
+        {
+          "id": "follow-up-questions",
+          "name": "후속 질문",
+          "description": "대화형 검색으로 심층 분석 가능",
+          "category": "interaction"
+        },
+        {
+          "id": "collections",
+          "name": "컬렉션",
+          "description": "검색 결과와 대화를 주제별로 정리",
+          "category": "organization"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "mobile-app",
+          "name": "Mobile App",
+          "type": "official"
+        },
+        {
+          "id": "browser-extension",
+          "name": "Browser Extension",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "mobile", "extension"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "5 Pro searches/day",
+              "기본 검색 기능",
+              "모바일 앱 접근"
+            ]
+          },
+          {
+            "id": "pro",
+            "name": "Pro",
+            "price": 20,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "무제한 Pro searches",
+              "GPT-4 모델 사용",
+              "이미지 생성",
+              "파일 업로드 분석",
+              "$5 API 크레딧"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["일 5회 Pro 검색", "기본 모델만"],
+          "trialPeriod": 7
+        }
+      },
+      "rating": {
+        "overall": 4.5,
+        "criteria": {
+          "functionality": 4.6,
+          "easeOfUse": 4.4,
+          "valueForMoney": 4.3,
+          "performance": 4.6,
+          "support": 4.2
+        },
+        "reviewCount": 1289
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2022-12-07T00:00:00Z",
+      "seo": {
+        "title": "Perplexity 리뷰 - AI 검색 엔진 완벽 가이드",
+        "description": "Perplexity의 실시간 검색, 출처 인용, 심층 분석 기능을 자세히 알아보세요. 연구와 정보 수집의 새로운 패러다임.",
+        "keywords": ["perplexity", "ai 검색", "실시간 검색", "연구 도구", "정보 분석"],
+        "ogImage": "/images/og/perplexity.jpg"
+      }
+    },
+    {
+      "id": "airtable-ai",
+      "slug": "airtable-ai",
+      "name": "Airtable AI",
+      "tagline": "AI-powered database platform",
+      "description": "Airtable AI는 데이터베이스와 스프레드시트의 기능을 결합한 플랫폼에 AI 기능을 추가한 도구입니다. 데이터 분석, 자동 분류, 콘텐츠 생성, 워크플로우 자동화 등을 통해 데이터 관리를 혁신합니다. 팀 협업과 프로젝트 관리에도 활용할 수 있습니다.",
+      "website": "https://airtable.com/ai",
+      "logo": {
+        "url": "/images/logos/airtable.svg",
+        "alt": "Airtable AI Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "analysis",
+      "subcategories": ["data-analysis"],
+      "tags": ["database", "spreadsheet", "automation", "collaboration"],
+      "targetAudience": ["business", "developer"],
+      "features": [
+        {
+          "id": "data-classification",
+          "name": "데이터 자동 분류",
+          "description": "AI가 데이터를 자동으로 카테고리화하고 태그 추가",
+          "category": "automation"
+        },
+        {
+          "id": "content-generation",
+          "name": "콘텐츠 생성",
+          "description": "데이터 기반으로 설명, 요약, 제안 생성",
+          "category": "generation"
+        },
+        {
+          "id": "formula-assistance",
+          "name": "수식 도우미",
+          "description": "자연어로 복잡한 수식 생성",
+          "category": "formula"
+        },
+        {
+          "id": "workflow-automation",
+          "name": "워크플로우 자동화",
+          "description": "반복 작업을 AI로 자동화",
+          "category": "automation"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "slack",
+          "name": "Slack",
+          "type": "official"
+        },
+        {
+          "id": "google-workspace",
+          "name": "Google Workspace",
+          "type": "official"
+        },
+        {
+          "id": "microsoft-365",
+          "name": "Microsoft 365",
+          "type": "official"
+        },
+        {
+          "id": "zapier",
+          "name": "Zapier",
+          "type": "community"
+        }
+      ],
+      "platforms": ["web", "mobile"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "1,000 records per base",
+              "기본 뷰와 필드",
+              "제한된 AI 기능"
+            ]
+          },
+          {
+            "id": "team",
+            "name": "Team",
+            "price": 24,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "50,000 records per base",
+              "고급 뷰와 필드",
+              "AI 기능 포함",
+              "간트 차트",
+              "캘린더 뷰"
+            ]
+          },
+          {
+            "id": "business",
+            "name": "Business",
+            "price": 54,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "125,000 records per base",
+              "고급 AI 기능",
+              "자동화 증가",
+              "고급 권한 관리"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["레코드 수 제한", "제한된 AI 기능"],
+          "trialPeriod": 14
+        }
+      },
+      "rating": {
+        "overall": 4.2,
+        "criteria": {
+          "functionality": 4.3,
+          "easeOfUse": 4.1,
+          "valueForMoney": 4.0,
+          "performance": 4.2,
+          "support": 4.3
+        },
+        "reviewCount": 3456
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-04-18T00:00:00Z",
+      "seo": {
+        "title": "Airtable AI 리뷰 - AI 기반 데이터베이스 플랫폼 분석",
+        "description": "Airtable AI의 데이터 분류, 콘텐츠 생성, 워크플로우 자동화 기능을 자세히 알아보세요. 팀 협업 데이터 관리 혁신.",
+        "keywords": ["airtable ai", "ai 데이터베이스", "데이터 분석", "워크플로우 자동화", "팀 협업"],
+        "ogImage": "/images/og/airtable-ai.jpg"
+      }
+    },
+    {
+      "id": "excel-copilot",
+      "slug": "excel-copilot",
+      "name": "Microsoft Copilot for Excel",
+      "tagline": "AI assistant for spreadsheets",
+      "description": "Microsoft Copilot for Excel은 스프레드시트 작업을 혁신하는 AI 어시스턴트입니다. 자연어로 복잡한 수식을 생성하고, 데이터 분석을 자동화하며, 차트와 피벗 테이블을 쉽게 만들 수 있습니다. Excel의 모든 기능과 완벽하게 통합되어 생산성을 크게 향상시킵니다.",
+      "website": "https://copilot.microsoft.com/excel",
+      "logo": {
+        "url": "/images/logos/excel-copilot.svg",
+        "alt": "Excel Copilot Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "analysis",
+      "subcategories": ["data-analysis", "visualization"],
+      "tags": ["excel", "microsoft", "spreadsheet", "formulas"],
+      "targetAudience": ["business", "researcher"],
+      "features": [
+        {
+          "id": "formula-generation",
+          "name": "수식 자동 생성",
+          "description": "자연어로 복잡한 Excel 수식 생성",
+          "category": "formula"
+        },
+        {
+          "id": "data-insights",
+          "name": "데이터 인사이트",
+          "description": "데이터에서 패턴과 트렌드 자동 발견",
+          "category": "analysis"
+        },
+        {
+          "id": "chart-creation",
+          "name": "차트 생성",
+          "description": "데이터에 맞는 최적의 차트 자동 생성",
+          "category": "visualization"
+        },
+        {
+          "id": "pivot-assistance",
+          "name": "피벗 테이블 도우미",
+          "description": "복잡한 피벗 테이블을 쉽게 생성",
+          "category": "analysis"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "microsoft-365",
+          "name": "Microsoft 365",
+          "type": "official"
+        },
+        {
+          "id": "teams",
+          "name": "Microsoft Teams",
+          "type": "official"
+        },
+        {
+          "id": "sharepoint",
+          "name": "SharePoint",
+          "type": "official"
+        }
+      ],
+      "platforms": ["desktop", "web"],
+      "pricing": {
+        "model": "paid",
+        "plans": [
+          {
+            "id": "copilot-pro",
+            "name": "Copilot Pro",
+            "price": 20,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Excel Copilot 포함",
+              "Microsoft 365 Personal",
+              "Word, PowerPoint Copilot",
+              "우선 접근권"
+            ]
+          },
+          {
+            "id": "microsoft-365-business",
+            "name": "Microsoft 365 Business",
+            "price": 30,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "모든 Copilot 기능",
+              "팀 라이선스",
+              "관리자 제어",
+              "데이터 보호"
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "overall": 4.1,
+        "criteria": {
+          "functionality": 4.2,
+          "easeOfUse": 4.0,
+          "valueForMoney": 3.9,
+          "performance": 4.1,
+          "support": 4.2
+        },
+        "reviewCount": 2876
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-11-01T00:00:00Z",
+      "seo": {
+        "title": "Excel Copilot 리뷰 - Microsoft AI 스프레드시트 도우미",
+        "description": "Excel Copilot의 수식 생성, 데이터 분석, 차트 생성 기능을 자세히 분석합니다. 스프레드시트 생산성 혁신 가이드.",
+        "keywords": ["excel copilot", "microsoft ai", "스프레드시트 ai", "수식 생성", "데이터 분석"],
+        "ogImage": "/images/og/excel-copilot.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-06-21T00:00:00Z",
+  "categories": [
+    {
+      "id": "coding",
+      "name": "코딩 도구",
+      "slug": "coding",
+      "description": "코드 작성, 디버깅, 리팩토링을 도와주는 AI 도구들",
+      "icon": "Code2",
+      "color": "#3B82F6",
+      "subcategories": [
+        {
+          "id": "code-generation",
+          "name": "코드 생성",
+          "slug": "code-generation",
+          "description": "자동 코드 생성 및 완성"
+        },
+        {
+          "id": "code-review",
+          "name": "코드 리뷰",
+          "slug": "code-review", 
+          "description": "코드 분석 및 개선 제안"
+        },
+        {
+          "id": "debugging",
+          "name": "디버깅",
+          "slug": "debugging",
+          "description": "버그 찾기 및 해결"
+        },
+        {
+          "id": "testing",
+          "name": "테스팅",
+          "slug": "testing",
+          "description": "테스트 코드 생성 및 자동화"
+        }
+      ],
+      "toolCount": 15
+    },
+    {
+      "id": "design",
+      "name": "디자인 도구", 
+      "slug": "design",
+      "description": "UI/UX 디자인, 이미지 생성, 프로토타이핑 AI 도구들",
+      "icon": "Palette",
+      "color": "#8B5CF6",
+      "subcategories": [
+        {
+          "id": "image-generation",
+          "name": "이미지 생성",
+          "slug": "image-generation",
+          "description": "AI 기반 이미지 및 일러스트 생성"
+        },
+        {
+          "id": "ui-design",
+          "name": "UI 디자인",
+          "slug": "ui-design",
+          "description": "인터페이스 디자인 및 프로토타이핑"
+        },
+        {
+          "id": "logo-branding",
+          "name": "로고 & 브랜딩",
+          "slug": "logo-branding", 
+          "description": "로고, 브랜드 아이덴티티 생성"
+        }
+      ],
+      "toolCount": 12
+    },
+    {
+      "id": "writing",
+      "name": "글쓰기 도구",
+      "slug": "writing", 
+      "description": "텍스트 생성, 편집, 번역을 도와주는 AI 도구들",
+      "icon": "PenTool",
+      "color": "#10B981",
+      "subcategories": [
+        {
+          "id": "content-writing",
+          "name": "콘텐츠 작성",
+          "slug": "content-writing",
+          "description": "블로그, 아티클 등 콘텐츠 작성"
+        },
+        {
+          "id": "copywriting",
+          "name": "카피라이팅",
+          "slug": "copywriting",
+          "description": "마케팅 카피 및 광고 문구 작성"
+        },
+        {
+          "id": "translation",
+          "name": "번역",
+          "slug": "translation",
+          "description": "다국어 번역 및 현지화"
+        },
+        {
+          "id": "grammar-editing",
+          "name": "문법 & 편집",
+          "slug": "grammar-editing",
+          "description": "문법 검사 및 문체 개선"
+        }
+      ],
+      "toolCount": 18
+    },
+    {
+      "id": "analysis",
+      "name": "분석 도구",
+      "slug": "analysis",
+      "description": "데이터 분석, 차트 생성, 인사이트 도출 AI 도구들", 
+      "icon": "BarChart3",
+      "color": "#F59E0B",
+      "subcategories": [
+        {
+          "id": "data-analysis",
+          "name": "데이터 분석",
+          "slug": "data-analysis",
+          "description": "데이터 처리 및 통계 분석"
+        },
+        {
+          "id": "visualization",
+          "name": "시각화",
+          "slug": "visualization", 
+          "description": "차트, 그래프, 대시보드 생성"
+        },
+        {
+          "id": "market-research",
+          "name": "시장 조사",
+          "slug": "market-research",
+          "description": "시장 동향 및 경쟁 분석"
+        }
+      ],
+      "toolCount": 8
+    },
+    {
+      "id": "productivity",
+      "name": "생산성 도구",
+      "slug": "productivity",
+      "description": "업무 자동화, 일정 관리, 프로젝트 관리 AI 도구들",
+      "icon": "Zap",
+      "color": "#EF4444", 
+      "subcategories": [
+        {
+          "id": "task-management",
+          "name": "작업 관리",
+          "slug": "task-management",
+          "description": "할 일 관리 및 프로젝트 계획"
+        },
+        {
+          "id": "automation",
+          "name": "자동화",
+          "slug": "automation",
+          "description": "업무 프로세스 자동화"
+        },
+        {
+          "id": "scheduling",
+          "name": "일정 관리",
+          "slug": "scheduling",
+          "description": "회의 및 일정 조정"
+        }
+      ],
+      "toolCount": 10
+    },
+    {
+      "id": "learning",
+      "name": "학습 도구",
+      "slug": "learning",
+      "description": "교육, 연구, 지식 습득을 도와주는 AI 도구들",
+      "icon": "GraduationCap",
+      "color": "#6366F1",
+      "subcategories": [
+        {
+          "id": "research",
+          "name": "연구",
+          "slug": "research", 
+          "description": "학술 연구 및 정보 검색"
+        },
+        {
+          "id": "language-learning",
+          "name": "언어 학습",
+          "slug": "language-learning",
+          "description": "외국어 학습 및 회화 연습"
+        },
+        {
+          "id": "skill-development",
+          "name": "스킬 개발",
+          "slug": "skill-development",
+          "description": "기술 습득 및 커리어 개발"
+        }
+      ],
+      "toolCount": 14
+    }
+  ]
+}

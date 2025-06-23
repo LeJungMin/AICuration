@@ -1,0 +1,641 @@
+{
+  "version": "1.0",
+  "category": "writing",
+  "lastUpdated": "2025-06-21T00:00:00Z",
+  "tools": [
+    {
+      "id": "chatgpt",
+      "slug": "chatgpt",
+      "name": "ChatGPT",
+      "tagline": "AI assistant for any task",
+      "description": "ChatGPT는 OpenAI에서 개발한 대화형 AI 어시스턴트입니다. 텍스트 생성, 번역, 요약, 분석 등 다양한 글쓰기 작업을 도와줍니다. GPT-4 모델을 기반으로 하여 높은 품질의 텍스트를 생성하며, 다양한 분야의 전문적인 글쓰기를 지원합니다.",
+      "website": "https://chat.openai.com",
+      "logo": {
+        "url": "/images/logos/chatgpt.svg",
+        "alt": "ChatGPT Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "writing",
+      "subcategories": ["content-writing", "copywriting", "translation"],
+      "tags": ["conversation", "gpt-4", "versatile", "coding"],
+      "targetAudience": ["writer", "student", "business", "developer"],
+      "features": [
+        {
+          "id": "conversational",
+          "name": "대화형 인터페이스",
+          "description": "자연스러운 대화를 통한 텍스트 생성과 편집",
+          "category": "interface"
+        },
+        {
+          "id": "multilingual",
+          "name": "다국어 지원",
+          "description": "100개 이상 언어의 번역과 글쓰기 지원",
+          "category": "language"
+        },
+        {
+          "id": "code-generation",
+          "name": "코드 생성",
+          "description": "프로그래밍 코드 작성과 디버깅 지원",
+          "category": "coding"
+        },
+        {
+          "id": "analysis",
+          "name": "텍스트 분석",
+          "description": "문서 요약, 분석, 개선 제안 기능",
+          "category": "analysis"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "api",
+          "name": "OpenAI API",
+          "type": "official",
+          "url": "https://platform.openai.com"
+        },
+        {
+          "id": "mobile-app",
+          "name": "Mobile App",
+          "type": "official",
+          "url": "https://apps.apple.com/app/openai-chatgpt/id6448311069"
+        },
+        {
+          "id": "plugins",
+          "name": "ChatGPT Plugins",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "mobile", "api"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "GPT-3.5 Turbo 사용",
+              "무제한 메시지 (제한 있음)",
+              "기본 속도"
+            ]
+          },
+          {
+            "id": "plus",
+            "name": "Plus",
+            "price": 20,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "GPT-4 접근",
+              "우선 접근권",
+              "더 빠른 응답 속도",
+              "DALL-E 3 포함",
+              "Advanced Data Analysis"
+            ],
+            "isPopular": true
+          },
+          {
+            "id": "team",
+            "name": "Team",
+            "price": 25,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Plus 모든 기능",
+              "팀 워크스페이스",
+              "관리자 콘솔",
+              "더 높은 사용량 한도"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["GPT-3.5만 사용", "피크 시간 제한"],
+          "trialPeriod": 0
+        }
+      },
+      "rating": {
+        "overall": 4.4,
+        "criteria": {
+          "functionality": 4.6,
+          "easeOfUse": 4.5,
+          "valueForMoney": 4.2,
+          "performance": 4.4,
+          "support": 4.1
+        },
+        "reviewCount": 15487
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2022-11-30T00:00:00Z",
+      "seo": {
+        "title": "ChatGPT 리뷰 - AI 글쓰기 도구 완벽 가이드",
+        "description": "ChatGPT로 블로그, 카피라이팅, 번역 등 다양한 글쓰기 작업을 효율적으로 하는 방법을 알아보세요.",
+        "keywords": ["chatgpt", "ai 글쓰기", "openai", "gpt-4", "텍스트 생성"],
+        "ogImage": "/images/og/chatgpt.jpg"
+      }
+    },
+    {
+      "id": "claude",
+      "slug": "claude",
+      "name": "Claude",
+      "tagline": "Constitutional AI assistant",
+      "description": "Claude는 Anthropic에서 개발한 AI 어시스턴트입니다. 안전하고 유용한 대화를 위해 Constitutional AI 기법을 사용합니다. 긴 텍스트 분석, 창작, 번역 등에 뛰어난 성능을 보이며, 특히 정확하고 신중한 답변으로 유명합니다.",
+      "website": "https://claude.ai",
+      "logo": {
+        "url": "/images/logos/claude.svg",
+        "alt": "Claude Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "writing",
+      "subcategories": ["content-writing", "translation", "grammar-editing"],
+      "tags": ["safety", "analysis", "long-context", "accurate"],
+      "targetAudience": ["writer", "researcher", "business"],
+      "features": [
+        {
+          "id": "long-context",
+          "name": "긴 문서 처리",
+          "description": "최대 200,000 토큰의 긴 텍스트 분석 가능",
+          "category": "capacity"
+        },
+        {
+          "id": "safety-focused",
+          "name": "안전성 중심",
+          "description": "Constitutional AI로 안전하고 도움이 되는 응답",
+          "category": "safety"
+        },
+        {
+          "id": "thoughtful-analysis",
+          "name": "사려깊은 분석",
+          "description": "복잡한 문제에 대한 신중하고 균형잡힌 분석",
+          "category": "analysis"
+        },
+        {
+          "id": "creative-writing",
+          "name": "창작 글쓰기",
+          "description": "소설, 시, 에세이 등 창의적 글쓰기 지원",
+          "category": "creativity"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "api",
+          "name": "Anthropic API",
+          "type": "official",
+          "url": "https://docs.anthropic.com"
+        }
+      ],
+      "platforms": ["web", "api"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Claude Instant 사용",
+              "제한된 메시지 수",
+              "기본 기능"
+            ]
+          },
+          {
+            "id": "pro",
+            "name": "Pro",
+            "price": 20,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Claude-2 전체 접근",
+              "5배 더 많은 사용량",
+              "우선 대역폭",
+              "조기 기능 접근"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["일일 메시지 제한", "기본 모델만"],
+          "trialPeriod": 0
+        }
+      },
+      "rating": {
+        "overall": 4.3,
+        "criteria": {
+          "functionality": 4.4,
+          "easeOfUse": 4.2,
+          "valueForMoney": 4.1,
+          "performance": 4.5,
+          "support": 4.2
+        },
+        "reviewCount": 3291
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-03-14T00:00:00Z",
+      "seo": {
+        "title": "Claude 리뷰 - Anthropic AI 어시스턴트 완벽 분석",
+        "description": "Claude의 긴 문서 처리, 안전성, 창작 글쓰기 기능을 자세히 분석합니다. ChatGPT와의 비교도 포함.",
+        "keywords": ["claude", "anthropic", "ai 어시스턴트", "긴 문서", "안전한 ai"],
+        "ogImage": "/images/og/claude.jpg"
+      }
+    },
+    {
+      "id": "grammarly",
+      "slug": "grammarly",
+      "name": "Grammarly",
+      "tagline": "AI writing assistant",
+      "description": "Grammarly는 AI 기반 글쓰기 어시스턴트로 문법, 맞춤법, 문체 개선을 도와줍니다. 실시간으로 텍스트를 분석하여 오류를 찾아내고 개선 제안을 제공합니다. 브라우저 확장 프로그램, 모바일 앱, 데스크톱 앱으로 다양한 플랫폼에서 사용할 수 있습니다.",
+      "website": "https://grammarly.com",
+      "logo": {
+        "url": "/images/logos/grammarly.svg",
+        "alt": "Grammarly Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "writing",
+      "subcategories": ["grammar-editing"],
+      "tags": ["grammar", "spell-check", "style", "browser-extension"],
+      "targetAudience": ["writer", "student", "business"],
+      "features": [
+        {
+          "id": "grammar-check",
+          "name": "문법 검사",
+          "description": "고급 문법 오류 감지 및 수정 제안",
+          "category": "correction"
+        },
+        {
+          "id": "style-suggestions",
+          "name": "문체 제안",
+          "description": "더 명확하고 효과적인 글쓰기를 위한 제안",
+          "category": "style"
+        },
+        {
+          "id": "tone-detection",
+          "name": "톤 감지",
+          "description": "글의 톤을 분석하고 개선 방향 제시",
+          "category": "analysis"
+        },
+        {
+          "id": "plagiarism-check",
+          "name": "표절 검사",
+          "description": "160억 개 웹페이지와 비교한 표절 검사",
+          "category": "verification"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "chrome",
+          "name": "Chrome Extension",
+          "type": "official"
+        },
+        {
+          "id": "microsoft-office",
+          "name": "Microsoft Office",
+          "type": "official"
+        },
+        {
+          "id": "google-docs",
+          "name": "Google Docs",
+          "type": "official"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "extension", "desktop", "mobile"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "기본 문법 및 맞춤법 검사",
+              "브라우저 확장 프로그램",
+              "모바일 앱"
+            ]
+          },
+          {
+            "id": "premium",
+            "name": "Premium",
+            "price": 12,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "고급 문법 검사",
+              "문체 및 톤 제안",
+              "어휘 향상 제안",
+              "장르별 글쓰기 체크"
+            ]
+          },
+          {
+            "id": "business",
+            "name": "Business",
+            "price": 15,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Premium 모든 기능",
+              "브랜드 톤 설정",
+              "팀 관리 기능",
+              "SAML SSO"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["기본 검사만", "제한된 제안"],
+          "trialPeriod": 7
+        }
+      },
+      "rating": {
+        "overall": 4.2,
+        "criteria": {
+          "functionality": 4.3,
+          "easeOfUse": 4.4,
+          "valueForMoney": 4.0,
+          "performance": 4.2,
+          "support": 4.1
+        },
+        "reviewCount": 8743
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2009-07-01T00:00:00Z",
+      "seo": {
+        "title": "Grammarly 리뷰 - AI 문법 검사 도구 완벽 가이드",
+        "description": "Grammarly의 문법 검사, 문체 개선, 표절 검사 기능을 자세히 분석합니다. 요금제별 차이점과 사용법도 포함.",
+        "keywords": ["grammarly", "문법 검사", "영어 글쓰기", "문체 개선", "표절 검사"],
+        "ogImage": "/images/og/grammarly.jpg"
+      }
+    },
+    {
+      "id": "notion-ai",
+      "slug": "notion-ai",
+      "name": "Notion AI",
+      "tagline": "AI writing partner in your workspace",
+      "description": "Notion AI는 Notion 워크스페이스에 통합된 AI 글쓰기 어시스턴트입니다. 문서 작성, 요약, 번역, 아이디어 생성 등 다양한 작업을 Notion 페이지 내에서 직접 수행할 수 있습니다. 팀 협업과 지식 관리에 특화된 기능을 제공합니다.",
+      "website": "https://notion.so/product/ai",
+      "logo": {
+        "url": "/images/logos/notion.svg",
+        "alt": "Notion AI Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "writing",
+      "subcategories": ["content-writing", "grammar-editing"],
+      "tags": ["notion", "workspace", "collaboration", "knowledge-management"],
+      "targetAudience": ["business", "student", "writer"],
+      "features": [
+        {
+          "id": "inline-editing",
+          "name": "인라인 편집",
+          "description": "Notion 페이지 내에서 직접 AI 기능 사용",
+          "category": "integration"
+        },
+        {
+          "id": "content-generation",
+          "name": "콘텐츠 생성",
+          "description": "블로그 포스트, 보고서, 제안서 등 다양한 문서 생성",
+          "category": "generation"
+        },
+        {
+          "id": "summarization",
+          "name": "요약 기능",
+          "description": "긴 문서나 회의록을 간결하게 요약",
+          "category": "analysis"
+        },
+        {
+          "id": "translation",
+          "name": "번역",
+          "description": "페이지 내용을 다양한 언어로 번역",
+          "category": "language"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "notion",
+          "name": "Notion Workspace",
+          "type": "official"
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "type": "official"
+        },
+        {
+          "id": "google-drive",
+          "name": "Google Drive",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "desktop", "mobile"],
+      "pricing": {
+        "model": "freemium",
+        "plans": [
+          {
+            "id": "free",
+            "name": "Free",
+            "price": 0,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "기본 Notion 기능",
+              "AI 기능 없음"
+            ]
+          },
+          {
+            "id": "plus",
+            "name": "Plus",
+            "price": 8,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Notion Plus 기능",
+              "AI 기능 별도 요금"
+            ]
+          },
+          {
+            "id": "ai-addon",
+            "name": "AI Add-on",
+            "price": 8,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "무제한 AI 사용",
+              "모든 AI 기능",
+              "팀 공유"
+            ]
+          }
+        ],
+        "freeTier": {
+          "hasFreeTier": true,
+          "limitations": ["AI 기능 사용 불가"],
+          "trialPeriod": 14
+        }
+      },
+      "rating": {
+        "overall": 4.1,
+        "criteria": {
+          "functionality": 4.2,
+          "easeOfUse": 4.3,
+          "valueForMoney": 3.9,
+          "performance": 4.0,
+          "support": 4.0
+        },
+        "reviewCount": 2456
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2023-02-22T00:00:00Z",
+      "seo": {
+        "title": "Notion AI 리뷰 - 워크스페이스 통합 AI 글쓰기 도구",
+        "description": "Notion AI의 인라인 편집, 콘텐츠 생성, 요약 기능을 자세히 분석합니다. 팀 협업에서의 활용법도 포함.",
+        "keywords": ["notion ai", "워크스페이스 ai", "팀 협업", "문서 생성", "ai 요약"],
+        "ogImage": "/images/og/notion-ai.jpg"
+      }
+    },
+    {
+      "id": "jasper",
+      "slug": "jasper",
+      "name": "Jasper",
+      "tagline": "AI content platform for teams",
+      "description": "Jasper는 마케팅 팀을 위한 AI 콘텐츠 플랫폼입니다. 블로그 포스트, 광고 카피, 소셜 미디어 콘텐츠 등을 생성할 수 있으며, 브랜드 보이스를 학습하여 일관된 톤의 콘텐츠를 만들어줍니다. 50개 이상의 콘텐츠 템플릿을 제공합니다.",
+      "website": "https://jasper.ai",
+      "logo": {
+        "url": "/images/logos/jasper.svg",
+        "alt": "Jasper Logo",
+        "width": 48,
+        "height": 48
+      },
+      "category": "writing",
+      "subcategories": ["content-writing", "copywriting"],
+      "tags": ["marketing", "brand-voice", "templates", "team-collaboration"],
+      "targetAudience": ["business", "writer"],
+      "features": [
+        {
+          "id": "brand-voice",
+          "name": "브랜드 보이스",
+          "description": "회사의 브랜드 톤과 스타일을 학습하여 일관된 콘텐츠 생성",
+          "category": "customization"
+        },
+        {
+          "id": "templates",
+          "name": "콘텐츠 템플릿",
+          "description": "50+ 마케팅 콘텐츠 템플릿 제공",
+          "category": "templates"
+        },
+        {
+          "id": "campaign-creation",
+          "name": "캠페인 생성",
+          "description": "통합된 마케팅 캠페인 콘텐츠 생성",
+          "category": "marketing"
+        },
+        {
+          "id": "team-collaboration",
+          "name": "팀 협업",
+          "description": "팀원들과 함께 콘텐츠 제작 및 편집",
+          "category": "collaboration"
+        }
+      ],
+      "integrations": [
+        {
+          "id": "chrome-extension",
+          "name": "Chrome Extension",
+          "type": "official"
+        },
+        {
+          "id": "wordpress",
+          "name": "WordPress",
+          "type": "official"
+        },
+        {
+          "id": "shopify",
+          "name": "Shopify",
+          "type": "official"
+        },
+        {
+          "id": "hubspot",
+          "name": "HubSpot",
+          "type": "official"
+        }
+      ],
+      "platforms": ["web", "extension"],
+      "pricing": {
+        "model": "paid",
+        "plans": [
+          {
+            "id": "creator",
+            "name": "Creator",
+            "price": 39,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "50,000 words/month",
+              "50+ 템플릿",
+              "브랜드 보이스",
+              "브라우저 확장"
+            ]
+          },
+          {
+            "id": "pro",
+            "name": "Pro",
+            "price": 59,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "무제한 words",
+              "팀 협업 기능",
+              "캠페인 생성",
+              "우선 지원"
+            ]
+          },
+          {
+            "id": "business",
+            "name": "Business",
+            "price": 499,
+            "currency": "USD",
+            "billingCycle": "monthly",
+            "features": [
+              "Pro 모든 기능",
+              "고급 팀 관리",
+              "SSO 통합",
+              "전담 고객 성공 매니저"
+            ]
+          }
+        ]
+      },
+      "rating": {
+        "overall": 4.0,
+        "criteria": {
+          "functionality": 4.1,
+          "easeOfUse": 4.2,
+          "valueForMoney": 3.7,
+          "performance": 4.0,
+          "support": 4.1
+        },
+        "reviewCount": 1834
+      },
+      "status": "active",
+      "lastUpdated": "2025-06-21T00:00:00Z",
+      "addedDate": "2021-01-30T00:00:00Z",
+      "seo": {
+        "title": "Jasper 리뷰 - 마케팅 팀을 위한 AI 콘텐츠 플랫폼",
+        "description": "Jasper의 브랜드 보이스, 콘텐츠 템플릿, 팀 협업 기능을 자세히 분석합니다. 마케팅 콘텐츠 생성 완벽 가이드.",
+        "keywords": ["jasper", "마케팅 ai", "콘텐츠 생성", "브랜드 보이스", "카피라이팅"],
+        "ogImage": "/images/og/jasper.jpg"
+      }
+    }
+  ]
+}
