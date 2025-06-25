@@ -151,7 +151,7 @@ pnpm test:e2e
 
 이 프로젝트는 Vercel에서 자동 배포됩니다:
 
-- **프로덕션**: [ai-tools-curator.vercel.app](https://ai-tools-curator.vercel.app/)
+- **프로덕션**: [ai-tools-curator.vercel.app](https://ai-curation.vercel.app/)
 - **프리뷰**: PR마다 자동 생성되는 프리뷰 URL
 
 ## 🤝 기여하기
