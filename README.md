@@ -3,9 +3,6 @@
 > 프론트엔드 개발자를 위한 AI 도구 큐레이션 플랫폼
 
 [![Vercel](https://vercelbadges.vercel.app/ai-tools-curator.svg)](https://ai-tools-curator.vercel.app/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)](https://nextjs.org/)
 
 ## 🎯 프로젝트 소개
 
@@ -15,7 +12,7 @@
 ### ✨ 주요 기능
 
 - 🔍 **스마트 검색 & 필터링**: 카테고리, 가격, 플랫폼별 정확한 필터링
-- 📱 **완벽한 반응형 디자인**: 모바일부터 데스크톱까지 최적화된 UX
+- 📱 **반응형 디자인**: 모바일부터 데스크톱까지 최적화된 UX
 - 🎨 **다크모드 지원**: 개발자 친화적인 테마 시스템
 - ⚡ **빠른 성능**: Next.js 14 App Router로 최적화된 로딩
 - 🧩 **도구 조합 추천**: 프로젝트 타입별 최적의 AI 도구 조합 제안
@@ -35,42 +32,6 @@ Testing: Jest + Playwright
 Linting: ESLint + Prettier
 Package Manager: PNPM
 Deployment: Vercel
-```
-
-## 🚀 빠른 시작
-
-### 사전 요구사항
-
-- Node.js 18.0.0 이상
-- PNPM 8.0.0 이상
-
-### 설치 및 실행
-
-```bash
-# 저장소 클론
-git clone https://github.com/LeJungMin/AICuration.git
-cd AICuration
-
-# 의존성 설치
-pnpm install
-
-# 개발 서버 실행
-pnpm dev
-
-# 브라우저에서 http://localhost:3000 열기
-```
-
-### 빌드 및 배포
-
-```bash
-# 프로덕션 빌드
-pnpm build
-
-# 프로덕션 서버 실행
-pnpm start
-
-# 번들 분석
-pnpm analyze
 ```
 
 ## 📊 프로젝트 구조
@@ -146,33 +107,3 @@ pnpm test:e2e
 - **이미지 최적화**: Next.js Image 컴포넌트 활용
 - **번들 최적화**: Code Splitting 및 Tree Shaking
 - **캐싱 전략**: Static Generation 및 HTTP 캐싱
-
-## 🚀 배포
-
-이 프로젝트는 Vercel에서 자동 배포됩니다:
-
-- **프로덕션**: [ai-tools-curator.vercel.app](https://ai-curation.vercel.app/)
-- **프리뷰**: PR마다 자동 생성되는 프리뷰 URL
-
-## 🤝 기여하기
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
-## 👨‍💻 개발자
-
-**이정민** - *9년차 프론트엔드 개발자*
-
-- GitHub: [@LeJungMin](https://github.com/LeJungMin)
-- LinkedIn: [이정민](https://linkedin.com/in/leejungmin)
-
----
-
-⭐ 이 프로젝트가 도움이 되었다면 star를 눌러주세요!
